@@ -134,33 +134,178 @@ class StatusBar(Frame): # scan open serial ports
         self.label.config(text='')
         self.label.update_idletasks()
 
-#Initialize the windows size and name
-window = Tk()
-window.title('LocoBox (1-5_box)')
-if sys.platform.startswith('win'):
-    window.geometry('770x420')
-elif sys.platform.startswith('darwin'):
-    window.geometry('1000x440')
-elif sys.platform.startswith('linux') or sys.platform.startswith('cygwin'):
-    window.geometry('900x520')
-else:
-    window.geometry('1000x440')
-status = StatusBar(window)
+
+class GUI:
+
+    def __init__(self, root):
+        self.root = root # root is a passed Tk object
+        self.title = root.title('LocoBox (1-5_box)')
+        
+        self.menu = Menu(root)
+        self.filemenu = Menu(self.menu)
+        self.settingmenu = Menu(self.menu)
+        self.recordingmenu = Menu(self.menu)
+        self.aboutmenu = Menu(self.menu)
+        self.tab_control = ttk.Notebook(root)
+        
+
+        if sys.platform.startswith('win'):
+            root.geometry('770x420')
+        elif sys.platform.startswith('darwin'):
+            root.geometry('1000x440')
+        elif sys.platform.startswith('linux') or sys.platform.startswith('cygwin'):
+            root.geometry('1100x620')
+        else:
+            root.geometry('1000x440')
+        
+        self.status = StatusBar(self.root)
+        self.btnSave = Button(text=' Save ', command=save_conf, state='disabled')
+        self.btnRun = Button(text= ' Recording Start ', command=connect, state='disabled')
+        self.btn10 = Button(text= ' Use 10 boxes ', command=clickUse10Boxes, state='active')
+
+        
+    def create_tab(parentframe):
+        canvas = Canvas(parentframe, width=850, height=200)
+        scroll = Scrollbar(parentframe, orient=VERTICAL, command=canvas.yview)
+        canvas.grid(row=0, column=0)
+        scroll.grid(row=0, column=1, sticky='ns')
+        canvas.config(yscrollcommand=scroll.set)
+        tab = Frame(canvas, width=200, height=300)
+        tab.bind(
+        "<Configure>",
+        lambda e: canvas.configure(
+            scrollregion=canvas.bbox("all")
+            )
+        )
+        canvas.create_window(400, 175, window=tab)
+        return tab
+
+    def clickUse10Boxes(self): 
+        global use10boxes
+        
+        if use10boxes:
+            use10boxes = False
+            self.del_secondary_frames()
+            self.title = root.title('LocoBox (1-5_box)')
+
+        else:
+            use10boxes = True 
+            self.add_secondary_frames()
+            self.tab_control.add(self.ParentFrame6, text='Box6')
+            self.tab_control.add(self.ParentFrame7, text='Box7')
+            self.tab_control.add(self.ParentFrame8, text='Box8')
+            window.tab_control.add(self.ParentFrame9, text='Box9')
+            window.tab_control.add(self.ParentFrame10, text='Box10')
+            tab6 = self.create_tab(self.ParentFrame6)
+            tab7 = self.create_tab(self.ParentFrame7)
+            tab8 = self.create_tab(self.ParentFrame8)
+            tab9 = self.create_tab(self.ParentFrame9)
+            tab10 = self.create_tab(self.ParentFrame10)   
+            self.title = root.title('LocoBox (1-10_boxes)')
+            
+    
+
+
+    def removethis(self):
+        self.frame.destroy()
+
+    def quit(self):
+        self.root.quit()
+
+    def update_idletasks(self):
+        self.root.update_idletasks()
+
+    
+
+    def add_primary_frames(self): #1 to 5
+        self.ParentFrame1 = ttk.Frame(self.tab_control)
+        self.ParentFrame2 = ttk.Frame(self.tab_control)
+        self.ParentFrame3 = ttk.Frame(self.tab_control)
+        self.ParentFrame4 = ttk.Frame(self.tab_control)
+        self.ParentFrame5 = ttk.Frame(self.tab_control)
+        self.ParentFrame11 = ttk.Frame(self.tab_control)
+
+        self.tab_control.add(self.ParentFrame1, text='Box1')
+        self.tab_control.add(self.ParentFrame2, text='Box2')
+        self.tab_control.add(self.ParentFrame3, text='Box3')
+        self.tab_control.add(self.ParentFrame4, text='Box4')
+        self.tab_control.add(self.ParentFrame5, text='Box5')
+        self.tab_control.add(self.ParentFrame11, text='Schedules')        
+        
+        self.tab1 = self.create_tab(self.ParentFrame1)
+        self.tab2 = self.create_tab(self.ParentFrame2)
+        self.tab3 = self.create_tab(self.ParentFrame3)
+        self.tab4 = self.create_tab(self.ParentFrame4)
+        self.tab5 = self.create_tab(self.ParentFrame5)
+        self.tab11 = self.create_tab(self.ParentFrame11)
+
+
+    def add_secondary_frames(self):
+        self.ParentFrame6 = ttk.Frame(self.tab_control)
+        self.ParentFrame7 = ttk.Frame(self.tab_control)
+        self.ParentFrame8 = ttk.Frame(self.tab_control)
+        self.ParentFrame9 = ttk.Frame(self.tab_control)
+        self.ParentFrame10 = ttk.Frame(self.tab_control)
+        
+        self.tab_control.add(self.ParentFrame6, text='Box6')
+        self.tab_control.add(self.ParentFrame7, text='Box7')
+        self.tab_control.add(self.ParentFrame8, text='Box8')
+        self.tab_control.add(self.ParentFrame9, text='Box9')
+        self.tab_control.add(self.ParentFrame10, text='Box10')
+        self.tab6 = self.create_tab(self.ParentFrame6)
+        self.tab7 = self.create_tab(self.ParentFrame7)
+        self.tab8 = self.create_tab(self.ParentFrame8)
+        self.tab9 = self.create_tab(self.ParentFrame9)
+        self.tab10 = self.create_tab(self.ParentFrame10)
+
+    def del_secondary_frames(self):
+        self.ParentFrame6.destroy() 
+        self.ParentFrame7.destroy() 
+        self.ParentFrame8.destroy() 
+        self.ParentFrame9.destroy() 
+        self.ParentFrame10.destroy() 
+
+    def set_ports_baud_timeout_filename(self):
+        self.port_entry = Spinbox(values=openPorts, width=25)
+        self.port_entry.delete(0,'end')
+        self.port_entry.insert(0,openPorts[0]) #first port is the default 
+        self.port_entry.place(x = 80, y = 270)
+        self.baud_entry = Spinbox(values=(300, 600, 1200, 2400, 4800, 9600, 14400, 19200, 28800, 38400, 57600, 115200), width=7)
+        self.baud_entry.delete(0,'end')
+        self.baud_entry.insert(0,'9600')
+        self.baud_entry.place(x = 440, y = 270)
+        self.timeout_entry = Entry(width = 4)
+        self.timeout_entry.place(x=635,y=270)
+        self.timeout_entry.insert(0,'10')
+        self.filename_entry = Entry(width = 25)
+        self.filename_entry.place(x=80, y=310)
+        date_string = time.strftime('%Y%m%d') # predefine a default filename with ISO date    
+        self.filename_entry.insert(0,'BOX1-5-'+date_string+'.txt')
+        self.configfilename_entry = Entry(width = 25)
+        self.configfilename_entry.place(x=440, y=310)
+        self.configfilename_entry.insert(0,'BOX1-5-sched-'+date_string+'.json')
+
+    
+
+
+root = Tk()
+window = GUI(root)
+
 
 ###Define functions
 def destruct(): # Quit the program
     print('LocoBox ended.')
-    window.quit()
+    window.root.quit()
 
 def get_data(istate=0): # Start recording
-    status.pack(side='bottom', fill='x')
-    status.set('Starting the recording...')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Starting the recording...')
     box1rec_text.set('Preparing for recording.')
     box2rec_text.set('Preparing for recording.')
     box3rec_text.set('Preparing for recording.')
     box4rec_text.set('Preparing for recording.')
     box5rec_text.set('Preparing for recording.')
-    window.update_idletasks()
+    window,root.update_idletasks()
     i=istate
     counti=0
     #init csv file and write the COM port name
@@ -181,8 +326,8 @@ def get_data(istate=0): # Start recording
             print(string2)
             if i==0:
                 print('Synching time...')
-                status.pack(side='bottom', fill='x')
-                status.set('Synching time...')
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Synching time...')
                 t= datetime.datetime.now()
                 t = t + datetime.timedelta(minutes=1)
                 serial_obj.write(str.encode(t.strftime('%Y-%m-%d %H:%M:%S')))
@@ -195,8 +340,8 @@ def get_data(istate=0): # Start recording
                 serial_obj.write(str.encode(dark1_1+light1_1+dark2_1+light2_1+dark3_1+light3_1+dark4_1+light4_1+
                                             dark5_1+light5_1))
                 
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 1 schedules sent.')                              
+                window.pack(side='bottom', fill='x')
+                window.status.set('Phase 1 schedules sent.')                              
             if i==3:
                 serial_obj.write(str.encode(hourOn1_2+minOn1_2+hourOff1_2+minOff1_2+hourOn2_2+minOn2_2+hourOff2_2+minOff2_2+
                                             hourOn3_2+minOn3_2+hourOff3_2+minOff3_2+hourOn4_2+minOn4_2+hourOff4_2+minOff4_2+
@@ -213,8 +358,8 @@ def get_data(istate=0): # Start recording
                                             hourFrom2_2+minuteFrom2_2+hourFrom3_2+minuteFrom3_2+
                                             hourFrom4_2+minuteFrom4_2+hourFrom5_2+minuteFrom5_2))
                
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 2 schedules sent.')    
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Phase 2 schedules sent.')    
             if i==6:
                 serial_obj.write(str.encode(hourOn1_3+minOn1_3+hourOff1_3+minOff1_3+hourOn2_3+minOn2_3+hourOff2_3+minOff2_3+
                                             hourOn3_3+minOn3_3+hourOff3_3+minOff3_3+hourOn4_3+minOn4_3+hourOff4_3+minOff4_3+
@@ -231,8 +376,8 @@ def get_data(istate=0): # Start recording
                                             hourFrom2_3+minuteFrom2_3+hourFrom3_3+minuteFrom3_3+
                                             hourFrom4_3+minuteFrom4_3+hourFrom5_3+minuteFrom5_3))
                 
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 3 schedules sent.')
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Phase 3 schedules sent.')
             if i==9:
                 serial_obj.write(str.encode(hourOn1_4+minOn1_4+hourOff1_4+minOff1_4+hourOn2_4+minOn2_4+hourOff2_4+minOff2_4+
                                             hourOn3_4+minOn3_4+hourOff3_4+minOff3_4+hourOn4_4+minOn4_4+hourOff4_4+minOff4_4+
@@ -249,8 +394,8 @@ def get_data(istate=0): # Start recording
                                             hourFrom2_4+minuteFrom2_4+hourFrom3_4+minuteFrom3_4+
                                             hourFrom4_4+minuteFrom4_4+hourFrom5_4+minuteFrom5_4)) 
                 
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 4 schedules sent.')
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Phase 4 schedules sent.')
             if i==12:
                 serial_obj.write(str.encode(hourOn1_5+minOn1_5+hourOff1_5+minOff1_5+hourOn2_5+minOn2_5+hourOff2_5+minOff2_5+
                                             hourOn3_5+minOn3_5+hourOff3_5+minOff3_5+hourOn4_5+minOn4_5+hourOff4_5+minOff4_5+
@@ -267,8 +412,8 @@ def get_data(istate=0): # Start recording
                                             hourFrom2_5+minuteFrom2_5+hourFrom3_5+minuteFrom3_5+
                                             hourFrom4_5+minuteFrom4_5+hourFrom5_5+minuteFrom5_5))
                
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 5 schedules sent.')
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Phase 5 schedules sent.')
             #Phase 6
             if i==15:
                 serial_obj.write(str.encode(hourOn1_6+minOn1_6+hourOff1_6+minOff1_6+hourOn2_6+minOn2_6+hourOff2_6+minOff2_6+
@@ -285,8 +430,8 @@ def get_data(istate=0): # Start recording
                                             date5_6+month5_6+year5_6+hourFrom1_6+minuteFrom1_6+
                                             hourFrom2_6+minuteFrom2_6+hourFrom3_6+minuteFrom3_6+
                                             hourFrom4_6+minuteFrom4_6+hourFrom5_6+minuteFrom5_6))
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 6 schedules sent.')
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Phase 6 schedules sent.')
             #Phase 7
             if i==18:
                 serial_obj.write(str.encode(hourOn1_7+minOn1_7+hourOff1_7+minOff1_7+hourOn2_7+minOn2_7+hourOff2_7+minOff2_7+
@@ -303,8 +448,8 @@ def get_data(istate=0): # Start recording
                                             date5_7+month5_7+year5_7+hourFrom1_7+minuteFrom1_7+
                                             hourFrom2_7+minuteFrom2_7+hourFrom3_7+minuteFrom3_7+
                                             hourFrom4_7+minuteFrom4_7+hourFrom5_7+minuteFrom5_7))
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 7 schedules sent.')
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Phase 7 schedules sent.')
             #Phase 8
             if i==21:
                 serial_obj.write(str.encode(hourOn1_8+minOn1_8+hourOff1_8+minOff1_8+hourOn2_8+minOn2_8+hourOff2_8+minOff2_8+
@@ -322,8 +467,8 @@ def get_data(istate=0): # Start recording
                                             hourFrom2_8+minuteFrom2_8+hourFrom3_8+minuteFrom3_8+
                                             hourFrom4_8+minuteFrom4_8+hourFrom5_8+minuteFrom5_8))
 
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 8 schedules sent.')
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Phase 8 schedules sent.')
             #Phase 9
             if i==24:
                 serial_obj.write(str.encode(hourOn1_9+minOn1_9+hourOff1_9+minOff1_9+hourOn2_9+minOn2_9+hourOff2_9+minOff2_9+
@@ -341,8 +486,8 @@ def get_data(istate=0): # Start recording
                                             hourFrom2_9+minuteFrom2_9+hourFrom3_9+minuteFrom3_9+
                                             hourFrom4_9+minuteFrom4_9+hourFrom5_9+minuteFrom5_9))
 
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 9 schedules sent.')
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Phase 9 schedules sent.')
             #Phase 10
             if i==27:
                 serial_obj.write(str.encode(hourOn1_10+minOn1_10+hourOff1_10+minOff1_10+hourOn2_10+minOn2_10+hourOff2_10+minOff2_10+
@@ -360,8 +505,8 @@ def get_data(istate=0): # Start recording
                                             hourFrom2_10+minuteFrom2_10+hourFrom3_10+minuteFrom3_10+
                                             hourFrom4_10+minuteFrom4_10+hourFrom5_10+minuteFrom5_10))
 
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 10 schedules sent.')
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Phase 10 schedules sent.')
             #Phase 11
             if i==30:
                 serial_obj.write(str.encode(hourOn1_11+minOn1_11+hourOff1_11+minOff1_11+hourOn2_11+minOn2_11+hourOff2_11+minOff2_11+
@@ -379,8 +524,8 @@ def get_data(istate=0): # Start recording
                                             hourFrom2_11+minuteFrom2_11+hourFrom3_11+minuteFrom3_11+
                                             hourFrom4_11+minuteFrom4_11+hourFrom5_11+minuteFrom5_11))
 
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 11 schedules sent.')
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Phase 11 schedules sent.')
 
             #Phase 12
             if i==33:
@@ -399,9 +544,9 @@ def get_data(istate=0): # Start recording
                                             hourFrom2_12+minuteFrom2_12+hourFrom3_12+minuteFrom3_12+
                                             hourFrom4_12+minuteFrom4_12+hourFrom5_12+minuteFrom5_12))
 
-                status.pack(side='bottom', fill='x')
-                status.set('Phase 11 schedules sent.')
-                status.set('All schedules transferred. Recording began.') 
+                window.status.pack(side='bottom', fill='x')
+                window.status.set('Phase 11 schedules sent.')
+                window.status.set('All schedules transferred. Recording began.') 
                 box1rec_text.set('Recording on-going.')
                 box2rec_text.set('Recording on-going.')
                 box3rec_text.set('Recording on-going.')
@@ -426,8 +571,8 @@ def get_data(istate=0): # Start recording
                 counti = counti+1
     except:
         print('Stopped recording and disconnected from the boxes.')
-        status.pack(side='bottom', fill='x')
-        status.set('Stopped recording and disconnected from the boxes.') 
+        window.status.pack(side='bottom', fill='x')
+        window.status.set('Stopped recording and disconnected from the boxes.') 
         box1rec_text.set('Recording stopped.')
         box2rec_text.set('Recording stopped.')
         box3rec_text.set('Recording stopped.')
@@ -441,8 +586,8 @@ def writeToJSONFile(filename, data):
         json.dump(data, fp)
 
 def save_conf(): # Save schedule configuration
-    status.pack(side='bottom', fill='x')
-    status.set('Saving the schedule configuration...')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Saving the schedule configuration...')
     config={}
     config['hourOn1_1'] = hourOn1_1
     config['minOn1_1'] = minOn1_1
@@ -3084,8 +3229,8 @@ def getBox3Schedule():
         dark3_12='0'
         light3_12='1'
 
-    status.pack(side='bottom', fill='x')
-    status.set('Box3 schedule is set.')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Box3 schedule is set.')
     box3sched_text.set('Box3 schedule set.')
     if setBox1+setBox2+setBox3+setBox4+setBox5 == 5:
         btnSave['state']='normal'
@@ -3589,8 +3734,14 @@ def getAllBoxSchedule():
     getBox3Schedule()
     getBox4Schedule()
     getBox5Schedule()
-    status.pack(side='bottom', fill='x')
-    status.set('Schedules for all boxes are set.')
+    if use10boxes:
+        getBox6Schedule()
+        getBox7Schedule()
+        getBox8Schedule()
+        getBox9Schedule()
+        getBox10Schedule()
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Schedules for all boxes are set.')
     show_conf()
     btnSave['state']='normal'
     btnRun['state']='normal'
