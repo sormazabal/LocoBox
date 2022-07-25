@@ -161,7 +161,7 @@ class GUI:
         self.status = StatusBar(self.root)
         self.btnSave = Button(text=' Save ', command=save_conf, state='disabled')
         self.btnRun = Button(text= ' Recording Start ', command=connect, state='disabled')
-        self.btn10 = Button(text= ' Use 10 boxes ', command=clickUse10Boxes, state='active')
+        self.btn10 = Button(text= ' Use 10 boxes ', command=self.clickUse10Boxes, state='active')
 
         
     def create_tab(parentframe):
@@ -797,23 +797,23 @@ def save_conf(): # Save schedule configuration
     
     configfilename = configfilename_entry.get()
     writeToJSONFile(configfilename, config)
-    status.pack(side='bottom', fill='x')
-    status.set('Schedule configuration saved.')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Schedule configuration saved.')
 
 
 
 def read_data(): # Read data from file for plotting
     global file_plot
-    status.pack(side='bottom', fill='x')
-    status.set('Reading the data...')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Reading the data...')
     file_plot = askopenfilename(filetypes=(("Text files", "*.txt"),
                                       ("All files", "*.*")))
-    status.pack(side='bottom', fill='x')
-    status.set('Schedule configuration saved.')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Schedule configuration saved.')
 
 def read_conf(): # Read schedule configuration
-    status.pack(side='bottom', fill='x')
-    status.set('Reading the schedule configuration...')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Reading the schedule configuration...')
     configfilename = filedialog.askopenfilename()
     with open(configfilename) as data_file:
         config = json.load(data_file)
@@ -1066,8 +1066,8 @@ def read_conf(): # Read schedule configuration
     show_conf()
     window.update_idletasks()
 
-    status.pack(side='bottom', fill='x')
-    status.set('The schedule configuration is loaded.')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('The schedule configuration is loaded.')
     box1sched_text.set('Box1 schedule loaded.')
     box2sched_text.set('Box2 schedule loaded.')
     box3sched_text.set('Box3 schedule loaded.')
@@ -2456,8 +2456,8 @@ def connect():  # Start to connect and call get_data - Link to Start in Recordin
     try:
         serial_obj = create_serial_obj(port, baud, timeout=timeout)
     except NameError:
-        status.pack(side='bottom', fill='x')
-        status.set('Missing baud rate and port number.')
+        window.status.pack(side='bottom', fill='x')
+        window.status.set('Missing baud rate and port number.')
         return
     t1 = threading.Thread(target=lambda:get_data(0))
     t1.daemon = True
@@ -2469,16 +2469,16 @@ def connect():  # Start to connect and call get_data - Link to Start in Recordin
     t1.start()
 
 def disconnect():  # close the serial_obj thread
-    status.pack(side='bottom', fill='x')
-    status.set('Attempting to close serial port...')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Attempting to close serial port...')
     global dead
     global serial_obj
     dead = True
     serial_obj.close()
     print(threading.active_count())
     print(threading.enumerate())
-    status.pack(side='bottom', fill='x')
-    status.set('Stopped recording and disconnected from the boxes.')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Stopped recording and disconnected from the boxes.')
     box1rec_text.set('Recording stopped.')
     box2rec_text.set('Recording stopped.')
     box3rec_text.set('Recording stopped.')
@@ -2741,8 +2741,8 @@ def getBox1Schedule():
         dark1_12='0'
         light1_12='1'
 
-    status.pack(side='bottom', fill='x')
-    status.set('Box1 schedule is set.')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Box1 schedule is set.')
     box1sched_text.set('Box1 schedule set.')
     if setBox1+setBox2+setBox3+setBox4+setBox5 == 5:
         btnSave['state']='normal'
@@ -2985,8 +2985,8 @@ def getBox2Schedule():
         dark2_12='0'
         light2_12='1'
     
-    status.pack(side='bottom', fill='x')
-    status.set('Box2 schedule is set.')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Box2 schedule is set.')
     box2sched_text.set('Box2 schedule set.')
     if setBox1+setBox2+setBox3+setBox4+setBox5 == 5:
         btnSave['state']='normal'
@@ -3473,8 +3473,8 @@ def getBox4Schedule():
         dark4_12='0'
         light4_12='1'
 
-    status.pack(side='bottom', fill='x')
-    status.set('Box4 schedule is set.')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Box4 schedule is set.')
     box4sched_text.set('Box4 schedule set.')
     if setBox1+setBox2+setBox3+setBox4+setBox5 == 5:
         btnSave['state']='normal'
@@ -3717,8 +3717,8 @@ def getBox5Schedule():
         dark5_12='0'
         light5_12='1'
 
-    status.pack(side='bottom', fill='x')
-    status.set('Box5 schedule is set.')
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Box5 schedule is set.')
     box5sched_text.set('Box5 schedule set.')
     if setBox1+setBox2+setBox3+setBox4+setBox5 == 5:
         btnSave['state']='normal'
@@ -4008,8 +4008,8 @@ if __name__ == '__main__':
         openPorts.append(p.device)
     if len(openPorts) == 0:
         openPorts=[openPorts]
-    status.pack(side='bottom', fill='x')
-    status.set('Available ports: '+', '.join(map(str,openPorts)))
+    window.status.pack(side='bottom', fill='x')
+    window.status.set('Available ports: '+', '.join(map(str,openPorts)))
 
     yupperbtns = 370
     ylowerbuttons = 410
