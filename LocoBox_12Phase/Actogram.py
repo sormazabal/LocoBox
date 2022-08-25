@@ -27,6 +27,7 @@ def plot_doubleplot(box, pir, led, filename):
         fo = open(filename, "r")
 
     except:
+        plt.clf()
         fig = plt.figure(figsize=(2, 2))  
         fig.suptitle("No data")
         return fig 
@@ -50,15 +51,26 @@ def plot_doubleplot(box, pir, led, filename):
         df = pd.read_table(filename, sep='\s+', skip_blank_lines=True,
                      skiprows=number_of_skipped_lines, index_col=None)
 
+
+        #print(df.head())
     except Exception as e:
+        plt.clf()
         print(e)
-        
-        fig = plt.figure(figsize=(2, 2))  
-        fig.suptitle("No data")
-        return fig 
+        df = pd.DataFrame(
+        {'HH:MM:SS': ['00:00:00'],  'MO/DY/YEAR':  [df['MO/DY/YEAR'][0]],
+        'LED01': [0], 'PIR01': [0], 'LED02': [0], 'PIR02': [0], 'LED03': [0], 'PIR03': [0], 'LED04': [0], 'PIR04': [0], 'LED05': [0], 'PIR05': [0], 'LED06': [0], 'PIR06': [0], 'LED07': [0], 'PIR07': [0], 'LED08': [0], 'PIR08': [0], 'LED09': [0], 'PIR09': [0], 'LED10': [0], 'PIR10': [0]
+        })
+        df.fillna(0)
+
+
+        #print(df)
+        #fig = plt.figure(figsize=(2, 2))  
+        #fig.suptitle("No data")
+        #return fig 
 
     if df.empty:
-        print("empty table")
+        plt.clf()
+        #print("empty table")
         fig = plt.figure(figsize=(2, 2))  
         fig.suptitle("No data")
         return fig 
@@ -69,6 +81,8 @@ def plot_doubleplot(box, pir, led, filename):
         {'HH:MM:SS': ['00:00:00'],  'MO/DY/YEAR':  [df['MO/DY/YEAR'][0]],
         'LED01': [0], 'PIR01': [0], 'LED02': [0], 'PIR02': [0], 'LED03': [0], 'PIR03': [0], 'LED04': [0], 'PIR04': [0], 'LED05': [0], 'PIR05': [0], 'LED06': [0], 'PIR06': [0], 'LED07': [0], 'PIR07': [0], 'LED08': [0], 'PIR08': [0], 'LED09': [0], 'PIR09': [0], 'LED10': [0], 'PIR10': [0]
         })
+
+    
     df0.index = pd.to_datetime(df0['MO/DY/YEAR']+' ' + df0['HH:MM:SS'],
                             format="%m/%d/%Y %H:%M:%S")
 
@@ -111,7 +125,9 @@ def plot_doubleplot(box, pir, led, filename):
     df = pd.concat([df0, df1, df, df3, df2])
     #df = df.groupby(np.arange(len(df))//60).mean() 
     dategroup = df.groupby(pd.Grouper(freq='D'))
-    
+    df.fillna(0)
+
+   #print(df)
 
     k = 0
     df2 = pd.DataFrame()
@@ -122,13 +138,7 @@ def plot_doubleplot(box, pir, led, filename):
         k = k+1
 
     # Remove the marginsclear
-    try:
-        dategroup2 = df2.groupby(pd.Grouper(freq='D'))
-
-    except:
-        fig = plt.figure(figsize=(2, 2))  
-        fig.suptitle("Not enough data.")
-        return fig 
+   
 
     plt.rcParams['axes.autolimit_mode'] = 'round_numbers'
     plt.rcParams['axes.xmargin'] = 0.
@@ -149,6 +159,18 @@ def plot_doubleplot(box, pir, led, filename):
     my_cmap[:,-1] = np.linspace(0.2, 1, cmap.N)
     my_cmap = ListedColormap(my_cmap)
 
+
+    try:
+        dategroup2 = df2.groupby(pd.Grouper(freq='D'))
+
+    except:
+        plt.clf()
+        fig = plt.figure(figsize=(2, 2))  
+        fig.suptitle("Not enough data.")
+        #n_group = dategroup.ngroups
+
+        #fig, axes = plt.subplots(nrows=n_group, ncols=2)
+        return fig 
     # scale to 1000 if max PIR is 60
     scale = 1000/max(group[pir])
 
@@ -197,13 +219,13 @@ def plot_doubleplot(box, pir, led, filename):
 
 
 
-# box = 'BOX2'
-# pir = 'PIR02'
-# led = 'LED02'
+#box = 'BOX2'
+#pir = 'PIR02'
+#led = 'LED02'
 
 #filename = '/home/zow/LocoBox/LocoBox_12Phase/BOX1-3-20181018.txt'
-#filename = '/home/zow/LocoBox/Prev_locobox_data/BOX1-5-20220720.txt'
+filename = '/home/zow/LocoBox/Prev_locobox_data/BOX1-5-20220720.txt'
 
-# filename = '/home/zow/LocoBox/BOX1-5-20220825.txt'
+#filename = '/home/zow/LocoBox/BOX1-5-20220825.txt'
 
-# plot_doubleplot(box, pir, led, filename)
+#plot_doubleplot(box, pir, led, filename)

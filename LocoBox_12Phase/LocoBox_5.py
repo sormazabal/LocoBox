@@ -125,7 +125,7 @@ global hourOn5_12, minOn5_12, hourOff5_12, minOff5_12, dark5_12, light5_12, date
 global initLED1, initLED2, initLED3, initLED4 , initLED5
 
 
-global value_mat, input_mat, log_mat, phase_delimiters, figure_canvas, figure
+global value_mat, input_mat, log_mat, phase_delimiters, figure_canvas, figure, tcycleON
 
 
 
@@ -223,6 +223,22 @@ else:
     window.geometry('1000x440')
 status = StatusBar(window)
 
+def calculate_seven_day_shift(start_time, tcycle_factor):
+    day_arr = []
+    next_day_start = start_time
+    for day in range(0,7):
+        next_day_start = next_day_start+datetime.timedelta(hours= tcycle_factor) 
+        #print(next_day_start)
+        day_arr.append(next_day_start)
+
+    return day_arr 
+
+def how_many_days_since_start(start_time):
+    timedel = datetime.now() -start_time
+    days = timedel.days
+    return days
+
+
 ###Define functions
 def destruct(): # Quit the program
     print('LocoBox ended.')
@@ -267,11 +283,12 @@ def get_data(istate=0): # Start recording
                 t = t + datetime.timedelta(minutes=1)
                 serial_obj.write(str.encode(t.strftime('%Y-%m-%d %H:%M:%S')))
             if i==1:
-
+                #lightIn1
                 phase_id = i-1
 
                 serial_obj.write(str.encode(str(initLED1) + str(initLED2) + str(initLED3)+ str(initLED4) + str(initLED5)))
 
+                serial_obj.write(str.encode(str(tcycleON)))
                 serial_obj.write(str.encode(hourOn1_1+minOn1_1+hourOff1_1+minOff1_1+hourOn2_1+minOn2_1+hourOff2_1+minOff2_1+
                                             hourOn3_1+minOn3_1+hourOff3_1+minOff3_1+hourOn4_1+minOn4_1+hourOff4_1+minOff4_1+
                                             hourOn5_1+minOn5_1+hourOff5_1+minOff5_1))
@@ -501,10 +518,16 @@ def get_data(istate=0): # Start recording
             
             if len(string2)>=79:     #set the id according to current tab
 
+                next7days_on_1 = calculate_seven_day_shift(t.replace(hour=0, minute = 0, second=0, microsecond=0), tcyclefactor)
+                days_past_start  = how_many_days_since_start(t)%7
 
-                print(string2)
-
+                serial_obj.write(str.encode(hourOn1_1+minOn1_1+hourOff1_1+minOff1_1+hourOn2_1+minOn2_1+hourOff2_1+minOff2_1+
+                                            hourOn3_1+minOn3_1+hourOff3_1+minOff3_1+hourOn4_1+minOn4_1+hourOff4_1+minOff4_1+
+                                            hourOn5_1+minOn5_1+hourOff5_1+minOff5_1))
                 
+                
+                print(string2)
+               
                 display_string = string2
                 display_counter = counti
                 save_logs(counti, string2) 
@@ -7638,8 +7661,9 @@ def change_time_display():
 
     #doesn't accept fractions, have to transform fraction into minutes so that people choose the whole day
     #should I recalculate the length of an hour?
-    global tcyclefactor, tcyclelength
+    global tcyclefactor, tcyclelength, tcycleON
 
+    tcycleON = True
    
     
     spin1_A_1.config(to=float(tcyclespinbox_arr[0,0].get()))
@@ -7882,6 +7906,7 @@ if __name__ == '__main__':
 
     log_mat =np.empty((120,12), dtype="<U10")
     tcyclespinbox_arr =  np.empty((5,12), dtype= object)
+    tcycleON =False 
     
     #Create file menu
     filemenu = Menu(menu)
