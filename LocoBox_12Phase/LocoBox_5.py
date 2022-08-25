@@ -288,7 +288,7 @@ def get_data(istate=0): # Start recording
 
                 serial_obj.write(str.encode(str(initLED1) + str(initLED2) + str(initLED3)+ str(initLED4) + str(initLED5)))
 
-                serial_obj.write(str.encode(str(tcycleON)))
+                #serial_obj.write(str.encode(str(tcycleON)))
                 serial_obj.write(str.encode(hourOn1_1+minOn1_1+hourOff1_1+minOff1_1+hourOn2_1+minOn2_1+hourOff2_1+minOff2_1+
                                             hourOn3_1+minOn3_1+hourOff3_1+minOff3_1+hourOn4_1+minOn4_1+hourOff4_1+minOff4_1+
                                             hourOn5_1+minOn5_1+hourOff5_1+minOff5_1))
@@ -518,12 +518,9 @@ def get_data(istate=0): # Start recording
             
             if len(string2)>=79:     #set the id according to current tab
 
-                next7days_on_1 = calculate_seven_day_shift(t.replace(hour=0, minute = 0, second=0, microsecond=0), tcyclefactor)
-                days_past_start  = how_many_days_since_start(t)%7
+                #next7days_on_1 = calculate_seven_day_shift(t.replace(hour=0, minute = 0, second=0, microsecond=0), tcyclefactor)
+                #days_past_start  = how_many_days_since_start(t)%7
 
-                serial_obj.write(str.encode(hourOn1_1+minOn1_1+hourOff1_1+minOff1_1+hourOn2_1+minOn2_1+hourOff2_1+minOff2_1+
-                                            hourOn3_1+minOn3_1+hourOff3_1+minOff3_1+hourOn4_1+minOn4_1+hourOff4_1+minOff4_1+
-                                            hourOn5_1+minOn5_1+hourOff5_1+minOff5_1))
                 
                 
                 print(string2)

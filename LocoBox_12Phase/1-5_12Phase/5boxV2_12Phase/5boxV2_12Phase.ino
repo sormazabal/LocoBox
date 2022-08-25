@@ -54,6 +54,7 @@ int initLED[5] = {0, 0, 0, 0, 0};  // 0 off and 1 on
 
 //Default value for using tcycle
 int useTcycle = 0;
+int tcyclelength[12] = {24,24,24,24,24,24,24,24,24,24,24,24}
 
 // Default light-on and off times for LD cycle
 int phase1[5] = {0, 0, 0, 0, 0};
@@ -2733,6 +2734,22 @@ void printMeasurement()
     {
       Serial.print("0000");
     }
+ 
+   //update hourOn/Off  https://github.com/adafruit/RTClib/blob/master/examples/ds3231/ds3231.ino
+   
+    i = 1
+    
+    HourOn1[i]
+
+    Datetime old_on()
+    DateTime future (now + TimeSpan(0,tcyclelength[i],0,0));
+    Serial.print("future ");
+
+
+
+
+
+
     Serial.print(mPIR[i]);
     Serial.print(" ");
 
