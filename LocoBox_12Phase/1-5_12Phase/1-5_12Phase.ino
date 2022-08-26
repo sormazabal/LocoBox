@@ -2609,11 +2609,62 @@ void loop()
 
 
  // ADD TCYCLE SHIFTS
- 
+
+
+ //phase 1
+
+  //check if phase 1 flag =1
     ActHourOnWrapper(HourOn1, MinuteOn1, tcyclelen1, phase1);
     ActMinOnWrapper(HourOn1, MinuteOn1, tcyclelen1, phase1);
+
+    //phase2
     ActHourOnWrapper(HourOn2, MinuteOn2, tcyclelen2, phase2);
     ActMinOnWrapper(HourOn2, MinuteOn2, tcyclelen2, phase2);
+
+  //phase3
+    ActHourOnWrapper(HourOn3, MinuteOn3, tcyclelen3, phase3);
+    ActMinOnWrapper(HourOn3, MinuteOn3, tcyclelen3, phase3);
+
+    //phase4
+    ActHourOnWrapper(HourOn4, MinuteOn4, tcyclelen4, phase4);
+    ActMinOnWrapper(HourOn4, MinuteOn4, tcyclelen4, phase4);
+
+    //phase 5
+    ActHourOnWrapper(HourOn5, MinuteOn5, tcyclelen5, phase5);
+    ActMinOnWrapper(HourOn5, MinuteOn5, tcyclelen5, phase5);
+
+    //phase6
+    ActHourOnWrapper(HourOn6, MinuteOn6, tcyclelen6, phase6);
+    ActMinOnWrapper(HourOn6, MinuteOn6, tcyclelen6, phase6);
+
+  //phase7
+    ActHourOnWrapper(HourOn7, MinuteOn7, tcyclelen7, phase7);
+    ActMinOnWrapper(HourOn7, MinuteOn7, tcyclelen7, phase7);
+
+    //phase8
+    ActHourOnWrapper(HourOn8, MinuteOn8, tcyclelen8, phase8);
+    ActMinOnWrapper(HourOn8, MinuteOn8, tcyclelen8, phase8);
+
+    //phase 9
+    ActHourOnWrapper(HourOn9, MinuteOn9, tcyclelen9, phase9);
+    ActMinOnWrapper(HourOn9, MinuteOn9, tcyclelen9, phase9);
+
+    //phase10
+    ActHourOnWrapper(HourOn10, MinuteOn10, tcyclelen10, phase10);
+    ActMinOnWrapper(HourOn10, MinuteOn10, tcyclelen10, phase10);
+
+  //phase11
+    ActHourOnWrapper(HourOn11, MinuteOn11, tcyclelen11, phase11);
+    ActMinOnWrapper(HourOn11, MinuteOn11, tcyclelen11, phase11);
+
+    //phase12
+    ActHourOnWrapper(HourOn12, MinuteOn12, tcyclelen12, phase12);
+    ActMinOnWrapper(HourOn12, MinuteOn12, tcyclelen12, phase12);
+
+
+
+
+    
 
     rtc_delay();
 
