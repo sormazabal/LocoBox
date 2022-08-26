@@ -2733,7 +2733,7 @@ void printMeasurement()
 
      //update hourOn/Off  https://github.com/adafruit/RTClib/blob/master/examples/ds3231/ds3231.ino
      //int tcyclelength[12] = {24,24,24,24,24,24,24,24,24,24,24,24};
-     // ActHourOn1(7, 0, 24);
+     ActHourOn1(7, 0, 24);
     
     
 
@@ -2803,6 +2803,9 @@ void ActHourOn1(int HourOn, int MinuteOn, int tcyclelenght)
     Serial.print("future ");
     Serial.print(future.hour());
     //return future.hour();
+  }
+  else{
+    Serial.print("Haven't reached next phase ");
   }
 }
 
