@@ -21,7 +21,7 @@ int MinuteOn[5]= {0,0,0,0,0};
 float tcyclelen[5] = {22.3,24,24,24,24};
 
 
-int phase1[5] = {0, 0, 0, 0, 0};
+int phase1[5] = {1, 0, 0, 0, 0};
 
 void millis_delay(unsigned long interval)
 {
@@ -79,6 +79,7 @@ void loop() {
 
 //HourOn = ActHourOn1(HourOn, 0, tcyclelen, 1);
 ActHourOnWrapper(HourOn, MinuteOn, tcyclelen, phase1);
+ActMinOnWrapper(HourOn, MinuteOn, tcyclelen, phase1);
 
 
 }
@@ -155,6 +156,7 @@ int check_if_phase1_started( float tcyclelen, int phase1){
   if (phase1 == 0){
     tcyclelen = 24;
     }else{
+      Serial.println("Phase 1 started");
       tcyclelen = tcyclelen;
       
       }  
@@ -164,16 +166,30 @@ int check_if_phase1_started( float tcyclelen, int phase1){
   }
 
 
- int ActHourOnWrapper(int HourOn[], int MinuteOn[], float tcyclelen[], int phase1[]){
+ void ActHourOnWrapper(int HourOn[], int MinuteOn[], float tcyclelen[], int phase1[]){
     for (int i = 0; i < 5; i++){
 
-      HourOn[i] = ActHourOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);
-      MinuteOn[i] = ActMinOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);   
-      
+      HourOn[i] = ActHourOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);     
       
       
       
       }
+     
+  
+  
+  }
+
+
+   void ActMinOnWrapper(int HourOn[], int MinuteOn[], float tcyclelen[], int phase1[]){
+    for (int i = 0; i < 5; i++){
+
+      
+      MinuteOn[i] = ActMinOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);        
+      
+      
+      
+      }
+      
   
   
   }

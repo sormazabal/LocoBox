@@ -54,7 +54,6 @@ int HourOff1[5] = {20, 20, 20, 20, 20};
 int MinuteOff1[5] = {0, 0, 0, 0, 0};
 int light1[5] = {0, 0, 0, 0, 0}; // phase 1
 int dark1[5] = {0, 0, 0, 0, 0};  // phase 1
-float tcyclelen1[5] = {24, 24, 24, 24,24}
 
 int phase2[5] = {0, 0, 0, 0, 0};
 int HourOn2[5] = {8, 8, 8, 8, 8}; // phase 2
@@ -67,8 +66,7 @@ int date2[5] = {10, 10, 10, 10, 10};           // phase 2
 int month2[5] = {12, 12, 12, 12, 12};          // phase 2
 int year2[5] = {2018, 2018, 2018, 2018, 2018}; // phase 2
 int light2[5] = {0, 0, 0, 0, 0};               // phase 2
-int dark2[5] = {0, 0, 0, 0, 0}; 
-float tcyclelen2[5] = {24, 24, 24, 24,24}               // phase 2
+int dark2[5] = {0, 0, 0, 0, 0};                // phase 2
 
 int phase3[5] = {0, 0, 0, 0, 0};
 int HourOn3[5] = {8, 8, 8, 8, 8}; // phase 3
@@ -81,8 +79,7 @@ int date3[5] = {10, 10, 10, 10, 10};           // phase 3
 int month3[5] = {12, 12, 12, 12, 12};          // phase 3
 int year3[5] = {2018, 2018, 2018, 2018, 2018}; // phase 3
 int light3[5] = {0, 0, 0, 0, 0};               // phase 3
-int dark3[5] = {0, 0, 0, 0, 0};  
-float tcyclelen3[5] = {24, 24, 24, 24,24}              // phase 3
+int dark3[5] = {0, 0, 0, 0, 0};                // phase 3
 
 int phase4[5] = {0, 0, 0, 0, 0};
 int HourOn4[5] = {8, 8, 8, 8, 8}; // phase 4
@@ -95,8 +92,7 @@ int date4[5] = {10, 10, 10, 10, 10};           // phase 4
 int month4[5] = {12, 12, 12, 12, 12};          // phase 4
 int year4[5] = {2018, 2018, 2018, 2018, 2018}; // phase 4
 int light4[5] = {0, 0, 0, 0, 0};               // phase 4
-int dark4[5] = {0, 0, 0, 0, 0}; 
-float tcyclelen4[5] = {24, 24, 24, 24,24}               // phase 4
+int dark4[5] = {0, 0, 0, 0, 0};                // phase 4
 
 int phase5[5] = {0, 0, 0, 0, 0};
 int HourOn5[5] = {8, 8, 8, 8, 8}; // phase 5
@@ -109,8 +105,7 @@ int date5[5] = {10, 10, 10, 10, 10};           // phase 5
 int month5[5] = {12, 12, 12, 12, 12};          // phase 5
 int year5[5] = {2018, 2018, 2018, 2018, 2018}; // phase 5
 int light5[5] = {0, 0, 0, 0, 0};               // phase 5
-int dark5[5] = {0, 0, 0, 0, 0};   
-float tcyclelen5[5] = {24, 24, 24, 24,24}             // phase 5
+int dark5[5] = {0, 0, 0, 0, 0};                // phase 5
 
 int phase6[5] = {0, 0, 0, 0, 0};
 int HourOn6[5] = {8, 8, 8, 8, 8}; // phase 6
@@ -123,8 +118,7 @@ int date6[5] = {10, 10, 10, 10, 10};           // phase 6
 int month6[5] = {12, 12, 12, 12, 12};          // phase 6
 int year6[5] = {2018, 2018, 2018, 2018, 2018}; // phase 6
 int light6[5] = {0, 0, 0, 0, 0};               // phase 6
-int dark6[5] = {0, 0, 0, 0, 0}; 
-float tcyclelen6[5] = {24, 24, 24, 24,24}               // phase 6
+int dark6[5] = {0, 0, 0, 0, 0};                // phase 6
 
 int phase7[5] = {0, 0, 0, 0, 0};
 int HourOn7[5] = {8, 8, 8, 8, 8}; // phase 7
@@ -138,7 +132,6 @@ int month7[5] = {12, 12, 12, 12, 12};          // phase 7
 int year7[5] = {2018, 2018, 2018, 2018, 2018}; // phase 7
 int light7[5] = {0, 0, 0, 0, 0};               // phase 7
 int dark7[5] = {0, 0, 0, 0, 0};                // phase 7
-float tcyclelen7[5] = {24, 24, 24, 24,24}
 
 int phase8[5] = {0, 0, 0, 0, 0};
 int HourOn8[5] = {8, 8, 8, 8, 8}; // phase 8
@@ -152,7 +145,6 @@ int month8[5] = {12, 12, 12, 12, 12};          // phase 8
 int year8[5] = {2018, 2018, 2018, 2018, 2018}; // phase 8
 int light8[5] = {0, 0, 0, 0, 0};               // phase 8
 int dark8[5] = {0, 0, 0, 0, 0};                // phase 8
-float tcyclelen8[5] = {24, 24, 24, 24,24}
 
 int phase9[5] = {0, 0, 0, 0, 0};
 int HourOn9[5] = {8, 8, 8, 8, 8}; // phase 9
@@ -166,7 +158,6 @@ int month9[5] = {12, 12, 12, 12, 12};          // phase 9
 int year9[5] = {2018, 2018, 2018, 2018, 2018}; // phase 9
 int light9[5] = {0, 0, 0, 0, 0};               // phase 9
 int dark9[5] = {0, 0, 0, 0, 0};                // phase 9
-float tcyclelen9[5] = {24, 24, 24, 24,24}
 
 int phase10[5] = {0, 0, 0, 0, 0};
 int HourOn10[5] = {8, 8, 8, 8, 8}; // phase 10
@@ -180,7 +171,6 @@ int month10[5] = {12, 12, 12, 12, 12};          // phase 10
 int year10[5] = {2018, 2018, 2018, 2018, 2018}; // phase 10
 int light10[5] = {0, 0, 0, 0, 0};               // phase 10
 int dark10[5] = {0, 0, 0, 0, 0};                // phase 10
-float tcyclelen10[5] = {24, 24, 24, 24,24}
 
 int phase11[5] = {0, 0, 0, 0, 0};
 int HourOn11[5] = {8, 8, 8, 8, 8}; // phase 11
@@ -194,7 +184,6 @@ int month11[5] = {12, 12, 12, 12, 12};          // phase 11
 int year11[5] = {2018, 2018, 2018, 2018, 2018}; // phase 11
 int light11[5] = {0, 0, 0, 0, 0};               // phase 11
 int dark11[5] = {0, 0, 0, 0, 0};                // phase 11
-float tcyclelen11[5] = {24, 24, 24, 24,24}
 
 int phase12[5] = {0, 0, 0, 0, 0};
 int HourOn12[5] = {8, 8, 8, 8, 8}; // phase 12
@@ -208,7 +197,6 @@ int month12[5] = {12, 12, 12, 12, 12};          // phase 12
 int year12[5] = {2018, 2018, 2018, 2018, 2018}; // phase 12
 int light12[5] = {0, 0, 0, 0, 0};               // phase 12
 int dark12[5] = {0, 0, 0, 0, 0};                // phase 12
-float tcyclelen12[5] = {24, 24, 24, 24,24}
 
 // Digital In-Out
 int DIn[5] = {2, 4, 6, 8, 10};  // PIR evens number digital use pinMode
@@ -2698,48 +2686,7 @@ void printMeasurement()
     Serial.print(mPIR[i]);
     Serial.print(" ");
 
-    //      int iOdds, iEven;
-    ////      //      analogSignal even
-    //        iEven = i*2;
-    //        if(mANALOG[iEven]<10000 && mANALOG[iEven]>999)
-    //        {
-    //          Serial.print("00");
-    //        }
-    //        if(mANALOG[iEven]<1000 && mANALOG[iEven]>99)
-    //        {
-    //          Serial.print("000");
-    //        }
-    //        if(mANALOG[iEven]<100 && mANALOG[iEven]>9)
-    //        {
-    //          Serial.print("0000");
-    //        }
-    //        if(mANALOG[iEven]<10)
-    //        {
-    //          Serial.print("00000");
-    //        }
-    //        Serial.print(mANALOG[iEven]);
-    //        Serial.print(" ");
-    //////      analogSignal odd
-    //      iOdds = 2*i+1;
-    //
-    //      if(mANALOG[iOdds]<10000 && mANALOG[iOdds]>999)
-    //        {
-    //          Serial.print("00");
-    //        }
-    //        if(mANALOG[iOdds]<1000 && mANALOG[iOdds]>99)
-    //        {
-    //          Serial.print("000");
-    //        }
-    //        if(mANALOG[iOdds]<100 && mANALOG[iOdds]>9)
-    //        {
-    //          Serial.print("0000");
-    //        }
-    //        if(mANALOG[iOdds]<10)
-    //        {
-    //          Serial.print("00000");
-    //        }
-    //        Serial.print(mANALOG[iOdds]);
-    //        Serial.print(" ");
+  
   }
 }
 
@@ -2779,3 +2726,113 @@ void printTime()
   Serial.print("/");
   Serial.print(now.year(), DEC);
 }
+
+
+
+
+int ActHourOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
+{
+
+    tcyclelen = check_if_phase1_started(tcyclelen, phase1);
+    int i = 1;    
+    int hro = HourOn;
+    int mino = MinuteOn;
+    //int hroff = HourOFF1[i];
+    int minutes_total = tcyclelen * 60;
+    int tcycleminutes = minutes_total % 60;
+
+    DateTime now = rtc.now();
+    DateTime yesterday  = now - TimeSpan(0,tcyclelen,tcycleminutes,0);    
+    DateTime old_on = DateTime(yesterday.year(),yesterday.month(),yesterday.day(),hro,mino,0); //yesterday won't increment in the console because I'm checking yesterday
+    DateTime future = (old_on + TimeSpan(0,tcyclelen,tcycleminutes,0)); //if tcyclelen is float, it just truncates it
+    int diff = (future - old_on).hours();
+    String str = String(future.year(), DEC) + '/' + String(future.month(), DEC) + '/' + String(future.day(), DEC) + " " + String(future.hour(), DEC) + ':' + String(future.minute(), DEC) + ':' + String(future.second(), DEC);
+    Serial.println(str);
+    
+    
+  if(diff > tcyclelen) { 
+    HourOn = future.hour();
+    
+    Serial.println("future ");
+    Serial.println(future.hour());
+    return HourOn;
+  }
+  else{
+    Serial.println("Haven't reached next phase ");
+    return hro;
+  }
+}
+
+
+int ActMinOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
+{
+
+    tcyclelen = check_if_phase1_started(tcyclelen, phase1);
+    int i = 1;    
+    int hro = HourOn;
+    int mino = MinuteOn;
+    //int hroff = HourOFF1[i];
+    int minutes_total = tcyclelen * 60;
+    int tcycleminutes = minutes_total % 60;
+
+    DateTime now = rtc.now();
+    DateTime yesterday  = now - TimeSpan(0,tcyclelen,tcycleminutes,0);    
+    DateTime old_on = DateTime(yesterday.year(),yesterday.month(),yesterday.day(),hro,mino,0); //yesterday won't increment in the console because I'm checking yesterday
+    DateTime future = (old_on + TimeSpan(0,tcyclelen,tcycleminutes,0)); //if tcyclelen is float, it just truncates it
+    int diff = (future - old_on).hours();
+    String str = String(future.year(), DEC) + '/' + String(future.month(), DEC) + '/' + String(future.day(), DEC) + " " + String(future.hour(), DEC) + ':' + String(future.minute(), DEC) + ':' + String(future.second(), DEC);
+    Serial.println(str);
+ 
+  if(diff > tcyclelen) { 
+    
+    MinuteOn = future.minute();
+   
+    return MinuteOn;
+  }
+  else{
+    Serial.println("Haven't reached next phase ");
+    return mino;
+  }
+}
+
+
+int check_if_phase1_started( float tcyclelen, int phase1){
+
+  if (phase1 == 0){
+    tcyclelen = 24;
+    }else{
+      Serial.println("Phase 1 started");
+      tcyclelen = tcyclelen;
+      
+      }  
+
+    return tcyclelen;
+    
+  }
+
+
+ void ActHourOnWrapper(int HourOn[], int MinuteOn[], float tcyclelen[], int phase1[]){
+    for (int i = 0; i < 5; i++){
+
+      HourOn[i] = ActHourOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);     
+      
+      
+      
+      }
+     
+  
+  
+  }
+
+
+   void ActMinOnWrapper(int HourOn[], int MinuteOn[], float tcyclelen[], int phase1[]){
+    for (int i = 0; i < 5; i++){
+
+      
+      MinuteOn[i] = ActMinOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);        
+     
+      }
+      
+  
+  
+  }
