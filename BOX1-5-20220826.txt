@@ -36,3 +36,3489 @@ PY_VAR67PY_VAR68PY_VAR69PY_VAR70PY_VAR710700190007001919070019190700191907001919
 0000000000
 111120221111202211112022111120221111202207000700070007000700
 HH:MM:SS MO/DY/YEAR LED01 PIR01 LED02 PIR02 LED03 PIR03 LED04 PIR04 LED05 PIR05
+17:10:59 08/26/2022 00000 00000 00000 00011 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:12:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:13:00 08/26/2022 00000 00000 00000 00033 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:14:59 08/26/2022 00000 00000 00000 00108 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:16:00 08/26/2022 00000 00000 00000 00061 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:17:00 08/26/2022 00000 00000 00000 00090 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:18:59 08/26/2022 00000 00000 00000 00108 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:20:00 08/26/2022 00000 00000 00000 00132 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:21:00 08/26/2022 00000 00000 00000 00066 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:22:59 08/26/2022 00000 00000 00000 00121 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:24:00 08/26/2022 00000 00000 00000 00128 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:25:00 08/26/2022 00000 00000 00000 00134 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:26:59 08/26/2022 00000 00000 00000 00078 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:28:00 08/26/2022 00000 00000 00000 00022 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:29:00 08/26/2022 00000 00012 00000 00100 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:30:59 08/26/2022 00000 00012 00000 00088 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:32:00 08/26/2022 00000 00000 00000 00088 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:33:00 08/26/2022 00000 00011 00000 00099 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:34:59 08/26/2022 00000 00000 00000 00098 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:36:00 08/26/2022 00000 00000 00000 00132 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:37:00 08/26/2022 00000 00000 00000 00099 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:38:59 08/26/2022 00000 00000 00000 00046 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:40:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:41:00 08/26/2022 00000 00000 00000 00022 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:42:59 08/26/2022 00000 00000 00000 00011 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:44:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:45:00 08/26/2022 00000 00000 00000 00022 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:46:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:48:00 08/26/2022 00000 00000 00000 00011 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:49:00 08/26/2022 00000 00000 00000 00055 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:50:59 08/26/2022 00000 00000 00000 00066 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:52:00 08/26/2022 00000 00022 00000 00077 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:53:00 08/26/2022 00000 00000 00000 00055 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:54:59 08/26/2022 00000 00000 00000 00044 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:56:00 08/26/2022 00000 00000 00000 00090 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:57:00 08/26/2022 00000 00000 00000 00132 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+17:58:59 08/26/2022 00000 00000 00000 00044 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:00:00 08/26/2022 00000 00000 00000 00055 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:01:00 08/26/2022 00000 00000 00000 00099 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:02:59 08/26/2022 00000 00000 00000 00088 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:04:00 08/26/2022 00000 00000 00000 00077 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:05:00 08/26/2022 00000 00000 00000 00044 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:06:59 08/26/2022 00000 00000 00000 00044 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:08:00 08/26/2022 00000 00000 00000 00066 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:09:00 08/26/2022 00000 00000 00000 00099 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:10:59 08/26/2022 00000 00000 00000 00055 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:12:00 08/26/2022 00000 00000 00000 00088 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:13:00 08/26/2022 00000 00000 00000 00044 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:14:59 08/26/2022 00000 00000 00000 00101 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:16:00 08/26/2022 00000 00000 00000 00133 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:17:00 08/26/2022 00000 00000 00000 00037 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:18:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:20:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:21:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:22:59 08/26/2022 00000 00000 00000 00043 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:24:00 08/26/2022 00000 00000 00000 00077 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:25:00 08/26/2022 00000 00000 00000 00075 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:26:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:28:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:29:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:30:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:32:00 08/26/2022 00000 00000 00000 00011 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:33:00 08/26/2022 00000 00000 00000 00033 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:34:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:36:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:37:00 08/26/2022 00000 00000 00000 00033 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:38:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:40:00 08/26/2022 00000 00000 00000 00011 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:41:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:42:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:44:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:45:00 08/26/2022 00000 00000 00000 00011 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:46:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:48:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:49:00 08/26/2022 00000 00011 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:50:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:52:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:53:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:54:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:56:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:57:00 08/26/2022 00000 00023 00000 00088 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+18:58:59 08/26/2022 00000 00023 00000 00044 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:00:00 08/26/2022 00000 00012 00000 00108 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:01:00 08/26/2022 00000 00035 00000 00119 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:02:59 08/26/2022 00000 00000 00000 00044 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:04:00 08/26/2022 00000 00012 00000 00121 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:05:00 08/26/2022 00000 00012 00000 00096 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:06:59 08/26/2022 00000 00000 00000 00077 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:08:00 08/26/2022 00000 00011 00000 00077 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:09:00 08/26/2022 00000 00012 00000 00044 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:10:59 08/26/2022 00000 00000 00000 00044 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:12:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:13:00 08/26/2022 00000 00000 00000 00044 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:14:59 08/26/2022 00000 00023 00000 00077 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:16:00 08/26/2022 00000 00023 00000 00122 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:17:00 08/26/2022 00000 00023 00000 00033 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:18:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:20:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:21:00 08/26/2022 00000 00000 00000 00011 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:22:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:24:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:25:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:26:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:28:00 08/26/2022 00000 00000 00000 00029 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:29:00 08/26/2022 00000 00000 00000 00014 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:30:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:32:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:33:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:34:59 08/26/2022 00000 00000 00000 00011 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:36:00 08/26/2022 00000 00000 00000 00011 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:37:00 08/26/2022 00000 00012 00000 00011 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:38:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:40:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:41:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:42:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:44:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:45:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:46:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:48:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:49:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:50:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:52:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:53:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:54:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:56:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:57:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+19:58:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:00:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:01:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:02:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:04:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:05:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:06:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:08:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:09:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:10:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:12:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:13:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:14:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:16:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:17:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:18:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:20:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:21:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:22:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:24:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:25:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:26:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:28:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:29:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:30:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:32:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:33:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:34:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:36:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:37:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:38:59 08/26/2022 00000 00012 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:40:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:41:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:42:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:44:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:45:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:46:59 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:48:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:49:00 08/26/2022 00000 00000 00000 00000 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+20:50:59 08/26/2022 00000 00000 00000 00033 00000 00000 00000 00000 00000 00000  
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 
+2022/8/26 0:0:0
+Haven't reached next phase 

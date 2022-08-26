@@ -287,6 +287,7 @@ def get_data(istate=0): # Start recording
                 phase_id = i-1
 
                 serial_obj.write(str.encode(str(initLED1) + str(initLED2) + str(initLED3)+ str(initLED4) + str(initLED5)))
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,0].get()) + str(tcyclespinbox_arr[1,0].get())+str(tcyclespinbox_arr[2,0].get())+str(tcyclespinbox_arr[3,0].get())+str(tcyclespinbox_arr[4,0].get())))
 
                 #serial_obj.write(str.encode(str(tcycleON)))
                 serial_obj.write(str.encode(hourOn1_1+minOn1_1+hourOff1_1+minOff1_1+hourOn2_1+minOn2_1+hourOff2_1+minOff2_1+
@@ -300,6 +301,9 @@ def get_data(istate=0): # Start recording
                 status.pack(side='bottom', fill='x')
                 status.set('Phase 1 schedules sent.')                              
             if i==3:
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,1].get()) + str(tcyclespinbox_arr[1,1].get())+str(tcyclespinbox_arr[2,1].get())+str(tcyclespinbox_arr[3,1].get())+str(tcyclespinbox_arr[4,1].get())))
+
+
                 serial_obj.write(str.encode(hourOn1_2+minOn1_2+hourOff1_2+minOff1_2+hourOn2_2+minOn2_2+hourOff2_2+minOff2_2+
                                             hourOn3_2+minOn3_2+hourOff3_2+minOff3_2+hourOn4_2+minOn4_2+hourOff4_2+minOff4_2+
                                             hourOn5_2+minOn5_2+hourOff5_2+minOff5_2))
@@ -318,6 +322,8 @@ def get_data(istate=0): # Start recording
                 status.pack(side='bottom', fill='x')
                 status.set('Phase 2 schedules sent.')    
             if i==6:
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,2].get()) + str(tcyclespinbox_arr[1,2].get())+str(tcyclespinbox_arr[2,2].get())+str(tcyclespinbox_arr[3,2].get())+str(tcyclespinbox_arr[4,2].get())))
+
                 serial_obj.write(str.encode(hourOn1_3+minOn1_3+hourOff1_3+minOff1_3+hourOn2_3+minOn2_3+hourOff2_3+minOff2_3+
                                             hourOn3_3+minOn3_3+hourOff3_3+minOff3_3+hourOn4_3+minOn4_3+hourOff4_3+minOff4_3+
                                             hourOn5_3+minOn5_3+hourOff5_3+minOff5_3))
@@ -336,6 +342,8 @@ def get_data(istate=0): # Start recording
                 status.pack(side='bottom', fill='x')
                 status.set('Phase 3 schedules sent.')
             if i==9:
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,3].get()) + str(tcyclespinbox_arr[1,3].get())+str(tcyclespinbox_arr[2,3].get())+str(tcyclespinbox_arr[3,3].get())+str(tcyclespinbox_arr[4,3].get())))
+
                 serial_obj.write(str.encode(hourOn1_4+minOn1_4+hourOff1_4+minOff1_4+hourOn2_4+minOn2_4+hourOff2_4+minOff2_4+
                                             hourOn3_4+minOn3_4+hourOff3_4+minOff3_4+hourOn4_4+minOn4_4+hourOff4_4+minOff4_4+
                                             hourOn5_4+minOn5_4+hourOff5_4+minOff5_4))
@@ -354,6 +362,8 @@ def get_data(istate=0): # Start recording
                 status.pack(side='bottom', fill='x')
                 status.set('Phase 4 schedules sent.')
             if i==12:
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,4].get()) + str(tcyclespinbox_arr[1,4].get())+str(tcyclespinbox_arr[2,4].get())+str(tcyclespinbox_arr[3,4].get())+str(tcyclespinbox_arr[4,4].get())))
+
                 serial_obj.write(str.encode(hourOn1_5+minOn1_5+hourOff1_5+minOff1_5+hourOn2_5+minOn2_5+hourOff2_5+minOff2_5+
                                             hourOn3_5+minOn3_5+hourOff3_5+minOff3_5+hourOn4_5+minOn4_5+hourOff4_5+minOff4_5+
                                             hourOn5_5+minOn5_5+hourOff5_5+minOff5_5))
@@ -373,6 +383,8 @@ def get_data(istate=0): # Start recording
                 status.set('Phase 5 schedules sent.')
             #Phase 6
             if i==15:
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,5].get()) + str(tcyclespinbox_arr[1,5].get())+str(tcyclespinbox_arr[2,5].get())+str(tcyclespinbox_arr[3,5].get())+str(tcyclespinbox_arr[4,5].get())))
+
                 serial_obj.write(str.encode(hourOn1_6+minOn1_6+hourOff1_6+minOff1_6+hourOn2_6+minOn2_6+hourOff2_6+minOff2_6+
                                             hourOn3_6+minOn3_6+hourOff3_6+minOff3_6+hourOn4_6+minOn4_6+hourOff4_6+minOff4_6+
                                             hourOn5_6+minOn5_6+hourOff5_6+minOff5_6))
@@ -391,6 +403,8 @@ def get_data(istate=0): # Start recording
                 status.set('Phase 6 schedules sent.')
             #Phase 7
             if i==18:
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,6].get()) + str(tcyclespinbox_arr[1,6].get())+str(tcyclespinbox_arr[2,6].get())+str(tcyclespinbox_arr[3,6].get())+str(tcyclespinbox_arr[4,6].get())))
+
                 serial_obj.write(str.encode(hourOn1_7+minOn1_7+hourOff1_7+minOff1_7+hourOn2_7+minOn2_7+hourOff2_7+minOff2_7+
                                             hourOn3_7+minOn3_7+hourOff3_7+minOff3_7+hourOn4_7+minOn4_7+hourOff4_7+minOff4_7+
                                             hourOn5_7+minOn5_7+hourOff5_7+minOff5_7))
@@ -409,6 +423,8 @@ def get_data(istate=0): # Start recording
                 status.set('Phase 7 schedules sent.')
             #Phase 8
             if i==21:
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,7].get()) + str(tcyclespinbox_arr[1,7].get())+str(tcyclespinbox_arr[2,7].get())+str(tcyclespinbox_arr[3,7].get())+str(tcyclespinbox_arr[4,7].get())))
+
                 serial_obj.write(str.encode(hourOn1_8+minOn1_8+hourOff1_8+minOff1_8+hourOn2_8+minOn2_8+hourOff2_8+minOff2_8+
                                             hourOn3_8+minOn3_8+hourOff3_8+minOff3_8+hourOn4_8+minOn4_8+hourOff4_8+minOff4_8+
                                             hourOn5_8+minOn5_8+hourOff5_8+minOff5_8))
@@ -428,6 +444,8 @@ def get_data(istate=0): # Start recording
                 status.set('Phase 8 schedules sent.')
             #Phase 9
             if i==24:
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,8].get()) + str(tcyclespinbox_arr[1,8].get())+str(tcyclespinbox_arr[2,8].get())+str(tcyclespinbox_arr[3,8].get())+str(tcyclespinbox_arr[4,8].get())))
+
                 serial_obj.write(str.encode(hourOn1_9+minOn1_9+hourOff1_9+minOff1_9+hourOn2_9+minOn2_9+hourOff2_9+minOff2_9+
                                             hourOn3_9+minOn3_9+hourOff3_9+minOff3_9+hourOn4_9+minOn4_9+hourOff4_9+minOff4_9+
                                             hourOn5_9+minOn5_9+hourOff5_9+minOff5_9))
@@ -447,6 +465,8 @@ def get_data(istate=0): # Start recording
                 status.set('Phase 9 schedules sent.')
             #Phase 10
             if i==27:
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,9].get()) + str(tcyclespinbox_arr[1,9].get())+str(tcyclespinbox_arr[2,9].get())+str(tcyclespinbox_arr[3,9].get())+str(tcyclespinbox_arr[4,9].get())))
+
                 serial_obj.write(str.encode(hourOn1_10+minOn1_10+hourOff1_10+minOff1_10+hourOn2_10+minOn2_10+hourOff2_10+minOff2_10+
                                             hourOn3_10+minOn3_10+hourOff3_10+minOff3_10+hourOn4_10+minOn4_10+hourOff4_10+minOff4_10+
                                             hourOn5_10+minOn5_10+hourOff5_10+minOff5_10))
@@ -466,6 +486,8 @@ def get_data(istate=0): # Start recording
                 status.set('Phase 10 schedules sent.')
             #Phase 11
             if i==30:
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,10].get()) + str(tcyclespinbox_arr[1,10].get())+str(tcyclespinbox_arr[2,10].get())+str(tcyclespinbox_arr[3,10].get())+str(tcyclespinbox_arr[4,10].get())))
+
                 serial_obj.write(str.encode(hourOn1_11+minOn1_11+hourOff1_11+minOff1_11+hourOn2_11+minOn2_11+hourOff2_11+minOff2_11+
                                             hourOn3_11+minOn3_11+hourOff3_11+minOff3_11+hourOn4_11+minOn4_11+hourOff4_11+minOff4_11+
                                             hourOn5_11+minOn5_11+hourOff5_11+minOff5_11))
@@ -493,6 +515,8 @@ def get_data(istate=0): # Start recording
 
             #Phase 12
             if i==33:
+                serial_obj.write(str.encode( str(tcyclespinbox_arr[0,12].get()) + str(tcyclespinbox_arr[1,12].get())+str(tcyclespinbox_arr[2,12].get())+str(tcyclespinbox_arr[3,12].get())+str(tcyclespinbox_arr[4,12].get())))
+
                 serial_obj.write(str.encode(hourOn1_12+minOn1_12+hourOff1_12+minOff1_12+hourOn2_12+minOn2_12+hourOff2_12+minOff2_12+
                                             hourOn3_12+minOn3_12+hourOff3_12+minOff3_12+hourOn4_12+minOn4_12+hourOff4_12+minOff4_12+
                                             hourOn5_12+minOn5_12+hourOff5_12+minOff5_12))
