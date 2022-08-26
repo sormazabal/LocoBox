@@ -16,8 +16,12 @@ unsigned long interval90 = 90UL;
 unsigned long invalue = 0UL;
 unsigned long maxValue = 16000000UL;
 int previoussecs;
-int HourOn = 7;
-float tcyclelen = 22.3;
+int HourOn[5] = {7,7,7,7,7};
+int MinuteOn[5]= {0,0,0,0,0};
+float tcyclelen[5] = {22.3,24,24,24,24};
+
+
+int phase1[5] = {0, 0, 0, 0, 0};
 
 void millis_delay(unsigned long interval)
 {
@@ -73,7 +77,8 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-HourOn = ActHourOn1(HourOn, 0, tcyclelen, 1);
+//HourOn = ActHourOn1(HourOn, 0, tcyclelen, 1);
+ActHourOnWrapper(HourOn, MinuteOn, tcyclelen, phase1);
 
 
 }
@@ -97,10 +102,10 @@ int ActHourOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
     int diff = (future - old_on).hours();
     String str = String(future.year(), DEC) + '/' + String(future.month(), DEC) + '/' + String(future.day(), DEC) + " " + String(future.hour(), DEC) + ':' + String(future.minute(), DEC) + ':' + String(future.second(), DEC);
     Serial.println(str);
-    HourOn = future.hour();
-    return HourOn;
-  if(diff > tcyclelen) { 
     
+    
+  if(diff > tcyclelen) { 
+    HourOn = future.hour();
     
     Serial.println("future ");
     Serial.println(future.hour());
@@ -108,6 +113,39 @@ int ActHourOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
   }
   else{
     Serial.println("Haven't reached next phase ");
+    return hro;
+  }
+}
+
+
+int ActMinOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
+{
+
+    tcyclelen = check_if_phase1_started(tcyclelen, phase1);
+    int i = 1;    
+    int hro = HourOn;
+    int mino = MinuteOn;
+    //int hroff = HourOFF1[i];
+    int minutes_total = tcyclelen * 60;
+    int tcycleminutes = minutes_total % 60;
+
+    DateTime now = rtc.now();
+    DateTime yesterday  = now - TimeSpan(0,tcyclelen,tcycleminutes,0);    
+    DateTime old_on = DateTime(yesterday.year(),yesterday.month(),yesterday.day(),hro,mino,0); //yesterday won't increment in the console because I'm checking yesterday
+    DateTime future = (old_on + TimeSpan(0,tcyclelen,tcycleminutes,0)); //if tcyclelen is float, it just truncates it
+    int diff = (future - old_on).hours();
+    String str = String(future.year(), DEC) + '/' + String(future.month(), DEC) + '/' + String(future.day(), DEC) + " " + String(future.hour(), DEC) + ':' + String(future.minute(), DEC) + ':' + String(future.second(), DEC);
+    Serial.println(str);
+ 
+  if(diff > tcyclelen) { 
+    
+    MinuteOn = future.minute();
+   
+    return MinuteOn;
+  }
+  else{
+    Serial.println("Haven't reached next phase ");
+    return mino;
   }
 }
 
@@ -123,6 +161,21 @@ int check_if_phase1_started( float tcyclelen, int phase1){
 
     return tcyclelen;
     
+  }
+
+
+ int ActHourOnWrapper(int HourOn[], int MinuteOn[], float tcyclelen[], int phase1[]){
+    for (int i = 0; i < 5; i++){
+
+      HourOn[i] = ActHourOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);
+      MinuteOn[i] = ActMinOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);   
+      
+      
+      
+      
+      }
+  
+  
   }
 
   
