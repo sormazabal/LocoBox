@@ -16,6 +16,8 @@ unsigned long interval90 = 90UL;
 unsigned long invalue = 0UL;
 unsigned long maxValue = 16000000UL;
 int previoussecs;
+int HourOn = 7;
+float tcyclelenght = 22.3;
 
 void millis_delay(unsigned long interval)
 {
@@ -70,32 +72,39 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-ActHourOn1(7, 0, 24);
+
+HourOn = ActHourOn1(HourOn, 0, tcyclelenght);
+
 
 }
 
 
-void ActHourOn1(int HourOn, int MinuteOn, int tcyclelenght)
+int ActHourOn1(int HourOn, int MinuteOn, float tcyclelenght)
 {
     int i = 1;    
     int hro = HourOn;
     int mino = MinuteOn;
     //int hroff = HourOFF1[i];
+    int minutes_total = tcyclelenght * 60;
+    int tcycleminutes = minutes_total % 60;
 
     DateTime now = rtc.now();
     DateTime yesterday  = now - TimeSpan(0,tcyclelenght,0,0);    
-    DateTime old_on = DateTime(yesterday.year(),yesterday.month(),yesterday.day(),hro,mino,0);
-    DateTime future = (old_on + TimeSpan(0,tcyclelenght,0,0));
+    DateTime old_on = DateTime(yesterday.year(),yesterday.month(),yesterday.day(),hro,mino,0); //yesterday won't increment in the console because I'm checking yesterday
+    DateTime future = (old_on + TimeSpan(0,tcyclelenght,tcycleminutes,0)); //if tcyclelenght is float, it just truncates it
     int diff = (future - old_on).hours();
-
+    String str = String(future.year(), DEC) + '/' + String(future.month(), DEC) + '/' + String(future.day(), DEC) + " " + String(future.hour(), DEC) + ':' + String(future.minute(), DEC) + ':' + String(future.second(), DEC);
+    Serial.println(str);
+    HourOn = future.hour();
+    return HourOn;
   if(diff > tcyclelenght) { 
     
     
-    Serial.print("future ");
-    Serial.print(future.hour());
-    //return future.hour();
+    Serial.println("future ");
+    Serial.println(future.hour());
+    return HourOn;
   }
   else{
-    Serial.print("Haven't reached next phase ");
+    Serial.println("Haven't reached next phase ");
   }
 }
