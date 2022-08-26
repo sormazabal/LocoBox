@@ -2742,48 +2742,7 @@ void printMeasurement()
     Serial.print(mPIR[i]);
     Serial.print(" ");
 
-    //      int iOdds, iEven;
-    ////      //      analogSignal even
-    //        iEven = i*2;
-    //        if(mANALOG[iEven]<10000 && mANALOG[iEven]>999)
-    //        {
-    //          Serial.print("00");
-    //        }
-    //        if(mANALOG[iEven]<1000 && mANALOG[iEven]>99)
-    //        {
-    //          Serial.print("000");
-    //        }
-    //        if(mANALOG[iEven]<100 && mANALOG[iEven]>9)
-    //        {
-    //          Serial.print("0000");
-    //        }
-    //        if(mANALOG[iEven]<10)
-    //        {
-    //          Serial.print("00000");
-    //        }
-    //        Serial.print(mANALOG[iEven]);
-    //        Serial.print(" ");
-    //////      analogSignal odd
-    //      iOdds = 2*i+1;
-    //
-    //      if(mANALOG[iOdds]<10000 && mANALOG[iOdds]>999)
-    //        {
-    //          Serial.print("00");
-    //        }
-    //        if(mANALOG[iOdds]<1000 && mANALOG[iOdds]>99)
-    //        {
-    //          Serial.print("000");
-    //        }
-    //        if(mANALOG[iOdds]<100 && mANALOG[iOdds]>9)
-    //        {
-    //          Serial.print("0000");
-    //        }
-    //        if(mANALOG[iOdds]<10)
-    //        {
-    //          Serial.print("00000");
-    //        }
-    //        Serial.print(mANALOG[iOdds]);
-    //        Serial.print(" ");
+    
   }
 }
 
@@ -2833,14 +2792,18 @@ void ActHourOn1(int HourOn, int MinuteOn, int tcyclelenght)
     //int hroff = HourOFF1[i];
 
     DateTime now = rtc.now();
-
-    DateTime yesterday  = now - TimeSpan(1,0,0,0);
+    DateTime yesterday  = now - TimeSpan(0,tcyclelenght,0,0);    
     DateTime old_on = DateTime(yesterday.year(),yesterday.month(),yesterday.day(),hro,mino,0);
     DateTime future = (old_on + TimeSpan(0,tcyclelenght,0,0));
+    float diff = future - old_on
+
+  if(diff > tcyclelenght) { 
+    
+    
     Serial.print("future ");
     Serial.print(future.hour());
     //return future.hour();
- 
+  }
 }
 
 void ActMinuteOn1()

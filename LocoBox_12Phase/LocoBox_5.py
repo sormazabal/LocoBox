@@ -725,7 +725,10 @@ def restore_history(log_text, log_mat, tab):
 
 
 def on_tab_change( counti, string2):
-    tab = int(tab_control.index('current'))+1
+    try:
+        tab = int(tab_control.index('current'))+1
+    except:
+        tab = 1
     #tab = event.widget.tab('current')['text']
     if tab == 1:
 
