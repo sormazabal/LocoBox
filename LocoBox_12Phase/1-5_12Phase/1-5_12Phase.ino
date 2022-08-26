@@ -2615,51 +2615,55 @@ void loop()
 
   //check if phase 1 flag =1
     ActHourOnWrapper(HourOn1, MinuteOn1, tcyclelen1, phase1);
-    ActMinOnWrapper(HourOn1, MinuteOn1, tcyclelen1, phase1);
-
+    
     //phase2
-    ActHourOnWrapper(HourOn2, MinuteOn2, tcyclelen2, phase2);
-    ActMinOnWrapper(HourOn2, MinuteOn2, tcyclelen2, phase2);
+
+    //check if any of the phases have finished
+    //the new phase calculation should start when the past phase finished
+
+    
+    ActHourOnWrapper2(HourOn2, MinuteOn2, tcyclelen2, phase2, phase1);
+    
+    
 
   //phase3
-    ActHourOnWrapper(HourOn3, MinuteOn3, tcyclelen3, phase3);
-    ActMinOnWrapper(HourOn3, MinuteOn3, tcyclelen3, phase3);
-
+    ActHourOnWrapper2(HourOn3, MinuteOn3, tcyclelen3, phase3, phase2);
+   
     //phase4
-    ActHourOnWrapper(HourOn4, MinuteOn4, tcyclelen4, phase4);
-    ActMinOnWrapper(HourOn4, MinuteOn4, tcyclelen4, phase4);
+    ActHourOnWrapper2(HourOn4, MinuteOn4, tcyclelen4, phase4, phase3);
+   
 
-    //phase 5
-    ActHourOnWrapper(HourOn5, MinuteOn5, tcyclelen5, phase5);
-    ActMinOnWrapper(HourOn5, MinuteOn5, tcyclelen5, phase5);
-
-    //phase6
-    ActHourOnWrapper(HourOn6, MinuteOn6, tcyclelen6, phase6);
-    ActMinOnWrapper(HourOn6, MinuteOn6, tcyclelen6, phase6);
-
-  //phase7
-    ActHourOnWrapper(HourOn7, MinuteOn7, tcyclelen7, phase7);
-    ActMinOnWrapper(HourOn7, MinuteOn7, tcyclelen7, phase7);
-
-    //phase8
-    ActHourOnWrapper(HourOn8, MinuteOn8, tcyclelen8, phase8);
-    ActMinOnWrapper(HourOn8, MinuteOn8, tcyclelen8, phase8);
-
-    //phase 9
-    ActHourOnWrapper(HourOn9, MinuteOn9, tcyclelen9, phase9);
-    ActMinOnWrapper(HourOn9, MinuteOn9, tcyclelen9, phase9);
-
-    //phase10
-    ActHourOnWrapper(HourOn10, MinuteOn10, tcyclelen10, phase10);
-    ActMinOnWrapper(HourOn10, MinuteOn10, tcyclelen10, phase10);
-
-  //phase11
-    ActHourOnWrapper(HourOn11, MinuteOn11, tcyclelen11, phase11);
-    ActMinOnWrapper(HourOn11, MinuteOn11, tcyclelen11, phase11);
-
-    //phase12
-    ActHourOnWrapper(HourOn12, MinuteOn12, tcyclelen12, phase12);
-    ActMinOnWrapper(HourOn12, MinuteOn12, tcyclelen12, phase12);
+//    //phase 5
+//    ActHourOnWrapper(HourOn5, MinuteOn5, tcyclelen5, phase5);
+//    ActMinOnWrapper(HourOn5, MinuteOn5, tcyclelen5, phase5);
+//
+//    //phase6
+//    ActHourOnWrapper(HourOn6, MinuteOn6, tcyclelen6, phase6);
+//    ActMinOnWrapper(HourOn6, MinuteOn6, tcyclelen6, phase6);
+//
+//  //phase7
+//    ActHourOnWrapper(HourOn7, MinuteOn7, tcyclelen7, phase7);
+//    ActMinOnWrapper(HourOn7, MinuteOn7, tcyclelen7, phase7);
+//
+//    //phase8
+//    ActHourOnWrapper(HourOn8, MinuteOn8, tcyclelen8, phase8);
+//    ActMinOnWrapper(HourOn8, MinuteOn8, tcyclelen8, phase8);
+//
+//    //phase 9
+//    ActHourOnWrapper(HourOn9, MinuteOn9, tcyclelen9, phase9);
+//    ActMinOnWrapper(HourOn9, MinuteOn9, tcyclelen9, phase9);
+//
+//    //phase10
+//    ActHourOnWrapper(HourOn10, MinuteOn10, tcyclelen10, phase10);
+//    ActMinOnWrapper(HourOn10, MinuteOn10, tcyclelen10, phase10);
+//
+//  //phase11
+//    ActHourOnWrapper(HourOn11, MinuteOn11, tcyclelen11, phase11);
+//    ActMinOnWrapper(HourOn11, MinuteOn11, tcyclelen11, phase11);
+//
+//    //phase12
+//    ActHourOnWrapper(HourOn12, MinuteOn12, tcyclelen12, phase12);
+//    ActMinOnWrapper(HourOn12, MinuteOn12, tcyclelen12, phase12);
 
 
 
@@ -2804,7 +2808,7 @@ void printTime()
 int ActHourOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
 {
 
-    tcyclelen = check_if_phase1_started(tcyclelen, phase1);
+    tcyclelen = check_if_phase_is_not_over(tcyclelen, phase1);
     int i = 1;    
     int hro = HourOn;
     int mino = MinuteOn;
@@ -2838,7 +2842,7 @@ int ActHourOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
 int ActMinOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
 {
 
-    tcyclelen = check_if_phase1_started(tcyclelen, phase1);
+    tcyclelen = check_if_phase_is_not_over(tcyclelen, phase1);
     int i = 1;    
     int hro = HourOn;
     int mino = MinuteOn;
@@ -2867,14 +2871,15 @@ int ActMinOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
 }
 
 
-int check_if_phase1_started( float tcyclelen, int phase1){
+int check_if_phase_is_not_over( float tcyclelen, int phase1){
 
-  if (phase1 == 0){
-    tcyclelen = 24;
-    }else{
-      Serial.println("Phase 1 started");
+  if (phase1 > 0 ){
+      Serial.println("Phase not over");
       tcyclelen = tcyclelen;
+    
+    }else{
       
+      tcyclelen = 24;
       }  
 
     return tcyclelen;
@@ -2885,7 +2890,8 @@ int check_if_phase1_started( float tcyclelen, int phase1){
  void ActHourOnWrapper(int HourOn[], int MinuteOn[], float tcyclelen[], int phase1[]){
     for (int i = 0; i < 5; i++){
 
-      HourOn[i] = ActHourOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);     
+      HourOn[i] = ActHourOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);
+      MinuteOn[i] = ActMinOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);          
       
       
       
@@ -2903,7 +2909,19 @@ int check_if_phase1_started( float tcyclelen, int phase1){
       MinuteOn[i] = ActMinOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);        
      
       }
+  
+  }
+
+
+  void ActHourOnWrapper2(int HourOn[], int MinuteOn[], float tcyclelen[], int phase2[], int phase1[]){
+    for (int i = 0; i < 5; i++){
+
+      if (phase1[i] >0){
+        Serial.println("in phase2");
+      HourOn[i] = ActHourOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase2[i]);     
+      MinuteOn[i] = ActMinOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase2[i]);  }          
       
+      }    
   
   
   }

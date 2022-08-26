@@ -21,7 +21,8 @@ int MinuteOn[5]= {0,0,0,0,0};
 float tcyclelen[5] = {22.3,24,24,24,24};
 
 
-int phase1[5] = {1, 0, 0, 0, 0};
+int phase1[5] = {1, 1, 1, 1, 1};
+int phase2[5] = {0, 0, 0, 0, 0};
 
 void millis_delay(unsigned long interval)
 {
@@ -79,7 +80,8 @@ void loop() {
 
 //HourOn = ActHourOn1(HourOn, 0, tcyclelen, 1);
 ActHourOnWrapper(HourOn, MinuteOn, tcyclelen, phase1);
-ActMinOnWrapper(HourOn, MinuteOn, tcyclelen, phase1);
+//ActMinOnWrapper(HourOn, MinuteOn, tcyclelen, phase1);
+ActHourOnWrapper2(HourOn, MinuteOn, tcyclelen, phase2, phase1);
 
 
 }
@@ -132,7 +134,7 @@ int ActMinOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
 
     DateTime now = rtc.now();
     DateTime yesterday  = now - TimeSpan(0,tcyclelen,tcycleminutes,0);    
-    DateTime old_on = DateTime(yesterday.year(),yesterday.month(),yesterday.day(),hro,mino,0); //yesterday won't increment in the console because I'm checking yesterday
+    DateTime old_on = DateTime(yesterday.year(),yesterday.month(),yesterday.day(),hro,mino,0); 
     DateTime future = (old_on + TimeSpan(0,tcyclelen,tcycleminutes,0)); //if tcyclelen is float, it just truncates it
     int diff = (future - old_on).hours();
     String str = String(future.year(), DEC) + '/' + String(future.month(), DEC) + '/' + String(future.day(), DEC) + " " + String(future.hour(), DEC) + ':' + String(future.minute(), DEC) + ':' + String(future.second(), DEC);
@@ -153,12 +155,13 @@ int ActMinOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
 
 int check_if_phase1_started( float tcyclelen, int phase1){
 
-  if (phase1 == 0){
-    tcyclelen = 24;
-    }else{
-      Serial.println("Phase 1 started");
+  if (phase1 > 0){
+      Serial.println("Phase not over");
       tcyclelen = tcyclelen;
+    
+    }else{
       
+      tcyclelen = 24;
       }  
 
     return tcyclelen;
@@ -170,26 +173,28 @@ int check_if_phase1_started( float tcyclelen, int phase1){
     for (int i = 0; i < 5; i++){
 
       HourOn[i] = ActHourOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);     
+      MinuteOn[i] = ActMinOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);      
       
       
-      
-      }
-     
+      }    
   
   
   }
 
 
-   void ActMinOnWrapper(int HourOn[], int MinuteOn[], float tcyclelen[], int phase1[]){
+  void ActHourOnWrapper2(int HourOn[], int MinuteOn[], float tcyclelen[], int phase2[], int phase1[]){
     for (int i = 0; i < 5; i++){
 
+      if (phase1[i] >0){
+        Serial.println("in phase2");
+      HourOn[i] = ActHourOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase2[i]);     
+      MinuteOn[i] = ActMinOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase2[i]);  }          
       
-      MinuteOn[i] = ActMinOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);        
-     
-      }
-      
+      }    
   
   
   }
+
+
 
   
