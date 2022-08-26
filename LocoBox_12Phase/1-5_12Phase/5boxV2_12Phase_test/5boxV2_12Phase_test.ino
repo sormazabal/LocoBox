@@ -51,9 +51,11 @@ int mANALOG[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; // analog Values
 
 // Default initial LED state (off) and applies for each box individually
 int initLED[5] = {0, 0, 0, 0, 0};  // 0 off and 1 on
+
 //Default value for using tcycle
 int useTcycle = 0;
-int tcyclelenght[12] = {24,24,24,24,24,24,24,24,24,24,24,24};
+int tcyclelength[12] = {24,24,24,24,24,24,24,24,24,24,24,24};
+
 // Default light-on and off times for LD cycle
 int phase1[5] = {0, 0, 0, 0, 0};
 int HourOn1[5] = {7, 7, 7, 7, 7}; // phase 1
@@ -344,10 +346,7 @@ void loop()
     TimeSet = 1;
   }
 
-
-  ////////////////////// Light Schedule (Get the input from Python interface)
-
-  // Read initLEDs
+// Read initLEDs
   if (Serial.available() == 40 && InitialFlag == 0 && TimeSet == 1)
   {
     initLEDs = Serial.readString();
@@ -358,6 +357,9 @@ void loop()
     initLED[3] = getInt(initLEDs.substring(5, 6));
     initLED[4] = getInt(initLEDs.substring(7, 8));
   }
+
+  ////////////////////// Light Schedule (Get the input from Python interface)
+
 
   // Phase1
   if (Serial.available() == 40 && InitialFlag == 0 && TimeSet == 1 && LightSet[1] == 0)
@@ -1584,7 +1586,10 @@ void loop()
     for (int i = 0; i < 5; i++) // loop for 5 boxes
     {
       if (phase1[i] == 0)                                                      //&& (int)dd2 <= date2 && (int)mo2 == month2 && (int)yy2 <= year2
-      {                                                                        // Serial.print("Phase1 HourOn1: "); Serial.print(HourOn1[0]); Serial.print(" "); Serial.print(MinuteOn1[0]); Serial.print("-Phase1HourOff");Serial.print(HourOff1[0]);Serial.print(" ");Serial.print(MinuteOff1[0]);
+      {         
+        //if Phase1_TcycleON turn light    
+        //{serial out.. }
+        //                                                           // Serial.print("Phase1 HourOn1: "); Serial.print(HourOn1[0]); Serial.print(" "); Serial.print(MinuteOn1[0]); Serial.print("-Phase1HourOff");Serial.print(HourOff1[0]);Serial.print(" ");Serial.print(MinuteOff1[0]);
         if (HourOn1[i] * 60 + MinuteOn1[i] < HourOff1[i] * 60 + MinuteOff1[i]) // 0-24 condition Turn On
         {
           if (HourOn1[i] * 60 + MinuteOn1[i] <= now.hour() * 60 + now.minute() && now.hour() * 60 + now.minute() < HourOff1[i] * 60 + MinuteOff1[i]) // after ON and before OFF
@@ -2729,20 +2734,61 @@ void printMeasurement()
     {
       Serial.print("0000");
     }
+ 
+   //update hourOn/Off  https://github.com/adafruit/RTClib/blob/master/examples/ds3231/ds3231.ino
+   
+    //ActHourOn1(7, 0, 24);
 
 
-     //update hourOn/Off  https://github.com/adafruit/RTClib/blob/master/examples/ds3231/ds3231.ino
-     //int tcyclelength[12] = {24,24,24,24,24,24,24,24,24,24,24,24};
-     ActHourOn1(7, 0, 24);
-    
-    
+
 
 
 
     Serial.print(mPIR[i]);
     Serial.print(" ");
 
-    
+    //      int iOdds, iEven;
+    ////      //      analogSignal even
+    //        iEven = i*2;
+    //        if(mANALOG[iEven]<10000 && mANALOG[iEven]>999)
+    //        {
+    //          Serial.print("00");
+    //        }
+    //        if(mANALOG[iEven]<1000 && mANALOG[iEven]>99)
+    //        {
+    //          Serial.print("000");
+    //        }
+    //        if(mANALOG[iEven]<100 && mANALOG[iEven]>9)
+    //        {
+    //          Serial.print("0000");
+    //        }
+    //        if(mANALOG[iEven]<10)
+    //        {
+    //          Serial.print("00000");
+    //        }
+    //        Serial.print(mANALOG[iEven]);
+    //        Serial.print(" ");
+    //////      analogSignal odd
+    //      iOdds = 2*i+1;
+    //
+    //      if(mANALOG[iOdds]<10000 && mANALOG[iOdds]>999)
+    //        {
+    //          Serial.print("00");
+    //        }
+    //        if(mANALOG[iOdds]<1000 && mANALOG[iOdds]>99)
+    //        {
+    //          Serial.print("000");
+    //        }
+    //        if(mANALOG[iOdds]<100 && mANALOG[iOdds]>9)
+    //        {
+    //          Serial.print("0000");
+    //        }
+    //        if(mANALOG[iOdds]<10)
+    //        {
+    //          Serial.print("00000");
+    //        }
+    //        Serial.print(mANALOG[iOdds]);
+    //        Serial.print(" ");
   }
 }
 
@@ -2783,7 +2829,8 @@ void printTime()
   Serial.print(now.year(), DEC);
 }
 
-// Convert HourOn with respect to T-cycle period
+
+
 void ActHourOn1(int HourOn, int MinuteOn, int tcyclelenght)
 {
     int i = 1;    
@@ -2807,14 +2854,4 @@ void ActHourOn1(int HourOn, int MinuteOn, int tcyclelenght)
   else{
     Serial.print("Haven't reached next phase ");
   }
-}
-
-void ActMinuteOn1()
-{
- 
-}
-
-void ActHourOff1()
-{
- 
 }
