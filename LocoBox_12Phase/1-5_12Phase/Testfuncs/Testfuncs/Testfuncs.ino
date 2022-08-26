@@ -185,9 +185,7 @@ int check_if_phase1_started( float tcyclelen, int phase1){
 
       
       MinuteOn[i] = ActMinOn1(HourOn[i], MinuteOn[i], tcyclelen[i], phase1[i]);        
-      
-      
-      
+     
       }
       
   
