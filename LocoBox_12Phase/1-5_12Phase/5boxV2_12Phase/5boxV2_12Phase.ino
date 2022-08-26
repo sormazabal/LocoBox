@@ -52,10 +52,6 @@ int mANALOG[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; // analog Values
 // Default initial LED state (off) and applies for each box individually
 int initLED[5] = {0, 0, 0, 0, 0};  // 0 off and 1 on
 
-//Default value for using tcycle
-int useTcycle = 0;
-int tcyclelength[12] = {24,24,24,24,24,24,24,24,24,24,24,24}
-
 // Default light-on and off times for LD cycle
 int phase1[5] = {0, 0, 0, 0, 0};
 int HourOn1[5] = {7, 7, 7, 7, 7}; // phase 1
@@ -359,7 +355,6 @@ void loop()
   }
 
   ////////////////////// Light Schedule (Get the input from Python interface)
-
 
   // Phase1
   if (Serial.available() == 40 && InitialFlag == 0 && TimeSet == 1 && LightSet[1] == 0)
@@ -1586,10 +1581,7 @@ void loop()
     for (int i = 0; i < 5; i++) // loop for 5 boxes
     {
       if (phase1[i] == 0)                                                      //&& (int)dd2 <= date2 && (int)mo2 == month2 && (int)yy2 <= year2
-      {         
-        //if Phase1_TcycleON turn light    
-        //{serial out.. }
-        //                                                           // Serial.print("Phase1 HourOn1: "); Serial.print(HourOn1[0]); Serial.print(" "); Serial.print(MinuteOn1[0]); Serial.print("-Phase1HourOff");Serial.print(HourOff1[0]);Serial.print(" ");Serial.print(MinuteOff1[0]);
+      {                                                                        // Serial.print("Phase1 HourOn1: "); Serial.print(HourOn1[0]); Serial.print(" "); Serial.print(MinuteOn1[0]); Serial.print("-Phase1HourOff");Serial.print(HourOff1[0]);Serial.print(" ");Serial.print(MinuteOff1[0]);
         if (HourOn1[i] * 60 + MinuteOn1[i] < HourOff1[i] * 60 + MinuteOff1[i]) // 0-24 condition Turn On
         {
           if (HourOn1[i] * 60 + MinuteOn1[i] <= now.hour() * 60 + now.minute() && now.hour() * 60 + now.minute() < HourOff1[i] * 60 + MinuteOff1[i]) // after ON and before OFF
@@ -2734,22 +2726,6 @@ void printMeasurement()
     {
       Serial.print("0000");
     }
- 
-   //update hourOn/Off  https://github.com/adafruit/RTClib/blob/master/examples/ds3231/ds3231.ino
-   
-    i = 1
-    
-    HourOn1[i]
-
-    Datetime old_on()
-    DateTime future (now + TimeSpan(0,tcyclelength[i],0,0));
-    Serial.print("future ");
-
-
-
-
-
-
     Serial.print(mPIR[i]);
     Serial.print(" ");
 

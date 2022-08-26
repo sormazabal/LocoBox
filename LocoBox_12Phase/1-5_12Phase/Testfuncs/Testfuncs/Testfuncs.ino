@@ -17,7 +17,7 @@ unsigned long invalue = 0UL;
 unsigned long maxValue = 16000000UL;
 int previoussecs;
 int HourOn = 7;
-float tcyclelenght = 22.3;
+float tcyclelen = 22.3;
 
 void millis_delay(unsigned long interval)
 {
@@ -73,31 +73,33 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-HourOn = ActHourOn1(HourOn, 0, tcyclelenght);
+HourOn = ActHourOn1(HourOn, 0, tcyclelen, 1);
 
 
 }
 
 
-int ActHourOn1(int HourOn, int MinuteOn, float tcyclelenght)
+int ActHourOn1(int HourOn, int MinuteOn, float tcyclelen, int phase1)
 {
+
+    tcyclelen = check_if_phase1_started(tcyclelen, phase1);
     int i = 1;    
     int hro = HourOn;
     int mino = MinuteOn;
     //int hroff = HourOFF1[i];
-    int minutes_total = tcyclelenght * 60;
+    int minutes_total = tcyclelen * 60;
     int tcycleminutes = minutes_total % 60;
 
     DateTime now = rtc.now();
-    DateTime yesterday  = now - TimeSpan(0,tcyclelenght,0,0);    
+    DateTime yesterday  = now - TimeSpan(0,tcyclelen,tcycleminutes,0);    
     DateTime old_on = DateTime(yesterday.year(),yesterday.month(),yesterday.day(),hro,mino,0); //yesterday won't increment in the console because I'm checking yesterday
-    DateTime future = (old_on + TimeSpan(0,tcyclelenght,tcycleminutes,0)); //if tcyclelenght is float, it just truncates it
+    DateTime future = (old_on + TimeSpan(0,tcyclelen,tcycleminutes,0)); //if tcyclelen is float, it just truncates it
     int diff = (future - old_on).hours();
     String str = String(future.year(), DEC) + '/' + String(future.month(), DEC) + '/' + String(future.day(), DEC) + " " + String(future.hour(), DEC) + ':' + String(future.minute(), DEC) + ':' + String(future.second(), DEC);
     Serial.println(str);
     HourOn = future.hour();
     return HourOn;
-  if(diff > tcyclelenght) { 
+  if(diff > tcyclelen) { 
     
     
     Serial.println("future ");
@@ -108,3 +110,19 @@ int ActHourOn1(int HourOn, int MinuteOn, float tcyclelenght)
     Serial.println("Haven't reached next phase ");
   }
 }
+
+
+int check_if_phase1_started( float tcyclelen, int phase1){
+
+  if (phase1 == 0){
+    tcyclelen = 24;
+    }else{
+      tcyclelen = tcyclelen;
+      
+      }  
+
+    return tcyclelen;
+    
+  }
+
+  
